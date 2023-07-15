@@ -1,0 +1,21 @@
+
+POST http://localhost:3001/auth/register
+content-type: application/json
+
+{
+    "firstName": "sample",
+    "lastName": "Kulshrestha",
+    "password": "abc542t",
+    "email": "aqbc@kul.com"
+}
+
+###
+
+POST http://localhost:3001/auth/login
+content-type: application/json
+
+{
+    "password": "abc542t",
+    "email": "aqbc@kul.com"
+}
+
